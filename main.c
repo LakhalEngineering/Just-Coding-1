@@ -22,7 +22,7 @@ int main()
     p = sorting_solution(array,length);
     printf("__________ array________\n");
     for(int i=0;i<5;i++){
-        printf("l'idex : %d value : %d\n",i, array[i]);
+        printf("l'index : %d value : %d\n",i, array[i]);
     }
     *(p + 2)=0;
     printf("__________pointer________\n");
